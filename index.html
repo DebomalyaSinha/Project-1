@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <!---nav section-->
+    <header>
+        <div class="container">
+            <nav role="navigation" aria-labelledby="Main Navigation">
+                <h2>ExploreWorld</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#booking">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+      <video class="bg-video" autoplay muted loop playsinline aria-label="Home Background video">
+        <source src="https://www.pexels.com/download/video/3015510/" />
+        Your Browser does not support This HTML5 video
+      </video>
+      <div class="overlay" aria-hidden="true"></div>
+      <div class="home-content">
+        <h1>Discover Your Next Adventure</h1>
+        <p>Explore the world with our exclusive travel packages</p>
+        <a href="#packages" class="btn" aria-label="Travel Packages Button">View Packages</a>
+      </div>
+    </section>
+    <!--destn-->
+    <section id="destinations" class="section" role="region-select" aria-labelledby="destination-selection">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <div class="destination-grid" role="Popular-destination-list">
+                <article class="destination-card" role="list-item">
+                    <img src="https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg"
+                    alt="Japanese Shrine,Tokyo"/>
+                    <h3>Tokyo, Japan</h3>
+                </article>
+                <article class="destination-card" role="list-item">
+                    <img src="https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg"
+                    alt="Water City,Itlay"/>
+                    <h3>Venice, Italy</h3>
+                </article>
+                <article class="destination-card" role="list-item">
+                    <img src="https://images.pexels.com/photos/472309/pexels-photo-472309.jpeg"
+                    alt="Thailand"/>
+                    <h3>Surat Thani, Thailand</h3>
+                </article>
+                <article class="destination-card" role="list-item">
+                    <img src="https://images.pexels.com/photos/1574181/pexels-photo-1574181.jpeg"
+                    alt="Canada"/>
+                    <h3>Toronto, Canada</h3>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="package" class="section" role="region" aria-labelledby="package-heading">
+        <div class="container">
+            <h2 id="package-headings">Our Packages</h2>
+            <div class="package-grid" role="list">
+                <article class="package-card" role="list-item">
+                    <img src="https://images.pexels.com/photos/1310788/pexels-photo-1310788.jpeg"
+                    alt="Shrine Explore in Tokyo Heart of Japan">
+                    <h3>Shrine Explorer, Tokyo</h3>
+                    <p>10 days| Starting From $800</p>
+                    <button aria-labbel="Book Now for Shrine Explorer Tokyo Package">Book Now</button>
+                </article>
+                <article class="package-card" role="list-item">
+                    <img src="https://images.pexels.com/photos/1310788/pexels-photo-1310788.jpeg"
+                    alt="Shrine Explore in Tokyo Heart of Japan">
+                    <h3>Shrine Explorer, Tokyo</h3>
+                    <p>10 days| Starting From $800</p>
+                    <button aria-labbel="Book Now for Shrine Explorer Tokyo Package">Book Now</button>
+                </article>
+                <article class="package-card" role="list-item">
+                    <img src="https://images.pexels.com/photos/1310788/pexels-photo-1310788.jpeg"
+                    alt="Shrine Explore in Tokyo Heart of Japan">
+                    <h3>Shrine Explorer, Tokyo</h3>
+                    <p>10 days| Starting From $800</p>
+                    <button aria-labbel="Book Now for Shrine Explorer Tokyo Package">Book Now</button>
+                </article>
+                <article class="package-card" role="list-item">
+                    <img src="https://images.pexels.com/photos/1310788/pexels-photo-1310788.jpeg"
+                    alt="Shrine Explore in Tokyo Heart of Japan">
+                    <h3>Shrine Explorer, Tokyo</h3>
+                    <p>10 days| Starting From $800</p>
+                    <button aria-labbel="Book Now for Shrine Explorer Tokyo Package">Book Now</button>
+                </article>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
